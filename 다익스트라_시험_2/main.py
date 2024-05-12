@@ -114,6 +114,7 @@ def dijkstra(graph, start, end):
     path = nx.shortest_path(graph, source=start, target=end, weight='weight')
     return path
 
+print(1)
 def plot_path(graph, path):
     pos = nx.get_node_attributes(graph, 'pos')
     plt.figure(figsize=(10, 8))
